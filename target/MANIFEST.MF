@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,hu.bme.mit.tra
+ inbenchmark.benchmark;bundle-version="1.0.0",hu.bme.mit.trainbenchmar
+ k.config;bundle-version="1.0.0",hu.bme.mit.trainbenchmark.benchmark.i
+ ncquery;bundle-version="1.0.0",hu.bme.mit.trainbenchmark.benchmark.em
+ f;bundle-version="1.0.0",hu.bme.mit.trainbenchmark.emf;bundle-version
+ ="1.0.0",hu.bme.mit.trainbenchmark.model;bundle-version="1.0.0",hu.bm
+ e.mit.trainbenchmark.benchmark.incquery.patterns;bundle-version="1.0.
+ 0",hu.bme.mit.inf.LookaheadMatcher,hu.bme.mit.inf.TreatEngine
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 0.0.1.201404142206
+Bundle-Name: Treat
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: hu.bme.mit.trainbenchmark.benchmark.treat;singlet
+ on:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
