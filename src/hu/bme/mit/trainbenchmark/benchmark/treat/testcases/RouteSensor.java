@@ -73,7 +73,7 @@ public class RouteSensor extends TreatTestCase
 			res = lmt.matchThePattern(RouteSensorQuerySpecification.instance());
 			invalids = new ArrayList<Sensor>();
 			for(LookaheadMatching itRes : res.elementSet())//.toArrayList(false))
-				invalids.add((Sensor)itRes.get("Sen"));
+				invalids.add((Sensor)itRes.get(0));
 		} catch (IncQueryException e) {
 			e.printStackTrace();
 		}

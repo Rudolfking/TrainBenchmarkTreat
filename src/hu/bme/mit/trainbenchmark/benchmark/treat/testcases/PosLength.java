@@ -75,7 +75,7 @@ public class PosLength extends TreatTestCase
 			res = lmt.matchThePattern(PosLengthQuerySpecification.instance());
 			invalids = new ArrayList<Segment>();
 			for(LookaheadMatching itRes : res.elementSet())//.toArrayList(false))
-				invalids.add((Segment)itRes.get("Source"));
+				invalids.add((Segment)itRes.get(0));
 			// System.out.println(res.size() + "(" + res.uniqueSize() + ")");
 		} catch (IncQueryException e) {
 			e.printStackTrace();

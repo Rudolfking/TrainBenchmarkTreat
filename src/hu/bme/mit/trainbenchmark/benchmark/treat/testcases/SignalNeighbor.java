@@ -71,7 +71,7 @@ public class SignalNeighbor extends TreatTestCase
 			res = lmt.matchThePattern(SignalNeighborQuerySpecification.instance());
 			invalids = new ArrayList<Route>();
 			for(LookaheadMatching itRes : res.elementSet())//.toArrayList(false))
-				invalids.add((Route)itRes.get("R1"));
+				invalids.add((Route)itRes.get(0));
 		} catch (IncQueryException e) {
 			e.printStackTrace();
 		}

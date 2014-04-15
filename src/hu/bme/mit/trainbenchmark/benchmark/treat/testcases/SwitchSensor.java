@@ -74,7 +74,7 @@ public class SwitchSensor extends TreatTestCase
 			res = lmt.matchThePattern(SwitchSensorQuerySpecification.instance());
 			invalids = new ArrayList<Switch>();
 			for(LookaheadMatching itRes : res.elementSet())//.toArrayList(false))
-				invalids.add((Switch)itRes.get("Individual"));
+				invalids.add((Switch)itRes.get(0));
 		} catch (IncQueryException e) {
 			e.printStackTrace();
 		}
