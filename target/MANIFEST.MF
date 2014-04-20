@@ -8,7 +8,7 @@ Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,hu.bme.mit.tra
  e.mit.trainbenchmark.benchmark.incquery.patterns;bundle-version="1.0.
  0",hu.bme.mit.inf.LookaheadMatcher,hu.bme.mit.inf.TreatEngine
 Bundle-ActivationPolicy: lazy
-Bundle-Version: 0.0.1.201404142206
+Bundle-Version: 0.0.1.201404201115
 Bundle-Name: Treat
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: hu.bme.mit.trainbenchmark.benchmark.treat;singlet
