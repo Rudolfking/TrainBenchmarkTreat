@@ -58,6 +58,13 @@ public class SignalNeighbor extends TreatTestCase
 		if (resource.getContents().size() > 0 && resource.getContents().get(0) instanceof IndividualContainer) {
 			pack = (IndividualContainer) resource.getContents().get(0);
 		}
+
+		// NOW you can match
+		try {
+			lmt.matchThePattern(SignalNeighborQuerySpecification.instance());
+		} catch (IncQueryException e) {
+			e.printStackTrace();
+		}
 		
 		bmr.setReadTime();
 	}

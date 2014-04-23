@@ -61,6 +61,12 @@ public class RouteSensor extends TreatTestCase
 			pack = (IndividualContainer) resource.getContents().get(0);
 		}
 		
+		try {
+			lmt.matchThePattern(RouteSensorQuerySpecification.instance());
+		} catch (IncQueryException e) {
+			e.printStackTrace();
+		}
+		
 		bmr.setReadTime();
 	}
 

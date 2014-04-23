@@ -60,6 +60,12 @@ public class SwitchSensor extends TreatTestCase
 		if (resource.getContents().size() > 0 && resource.getContents().get(0) instanceof IndividualContainer) {
 			pack = (IndividualContainer) resource.getContents().get(0);
 		}
+
+		try {
+			lmt.matchThePattern(SwitchSensorQuerySpecification.instance());
+		} catch (IncQueryException e) {
+			e.printStackTrace();
+		}
 		
 		bmr.setReadTime();
 	}

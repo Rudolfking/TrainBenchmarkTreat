@@ -61,6 +61,12 @@ public class PosLength extends TreatTestCase
 		if (resource.getContents().size() > 0 && resource.getContents().get(0) instanceof IndividualContainer) {
 			pack = (IndividualContainer) resource.getContents().get(0);
 		}
+
+		try {
+			lmt.matchThePattern(PosLengthQuerySpecification.instance());
+		} catch (IncQueryException e) {
+			e.printStackTrace();
+		} // match ALL!
 		
 		bmr.setReadTime();
 	}
