@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='2'>
-  <artifact classifier='osgi.bundle' id='hu.bme.mit.trainbenchmark.benchmark.treat' version='0.0.1.201404222126'>
+  <artifact classifier='osgi.bundle' id='hu.bme.mit.trainbenchmark.benchmark.treat' version='0.0.1.201404232230'>
     <properties size='5'>
-      <property name='artifact.size' value='25724'/>
-      <property name='download.size' value='25724'/>
+      <property name='artifact.size' value='25807'/>
+      <property name='download.size' value='25807'/>
       <property name='maven-groupId' value='hu.bme.mit.trainbenchmark.benchmark.treat'/>
       <property name='maven-artifactId' value='hu.bme.mit.trainbenchmark.benchmark.treat'/>
       <property name='maven-version' value='0.0.1-SNAPSHOT'/>
     </properties>
   </artifact>
-  <artifact classifier='osgi.bundle' id='hu.bme.mit.trainbenchmark.benchmark.treat.source' version='0.0.1.201404222126'>
+  <artifact classifier='osgi.bundle' id='hu.bme.mit.trainbenchmark.benchmark.treat.source' version='0.0.1.201404232230'>
     <properties size='6'>
-      <property name='artifact.size' value='14831'/>
-      <property name='download.size' value='14831'/>
+      <property name='artifact.size' value='14872'/>
+      <property name='download.size' value='14872'/>
       <property name='maven-groupId' value='hu.bme.mit.trainbenchmark.benchmark.treat'/>
       <property name='maven-artifactId' value='hu.bme.mit.trainbenchmark.benchmark.treat'/>
       <property name='maven-version' value='0.0.1-SNAPSHOT'/>
